@@ -6,6 +6,8 @@ import { MyOrder } from "../MyOrder/Index";
 import { MyOrders } from "../MyOrders";
 import { NotFound } from "../NotFound";
 import { SignIn } from "../SignIn";
+import { Navbar } from "../../Components/Navbar"
+
 import "./App.css";
 
 const AppRoutes = () => {
@@ -25,6 +27,7 @@ function App() {
   return (
     <BrowserRouter>
       <AppRoutes />
+      <Navbar/>
     </BrowserRouter>
   );
 }
