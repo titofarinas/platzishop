@@ -1,3 +1,5 @@
+import { Layout } from "../../Components/Layout/Index";
+
 export const NotFound = () => {
-  return <div>NotFound</div>;
+  return <Layout>NotFound</Layout>;
 };

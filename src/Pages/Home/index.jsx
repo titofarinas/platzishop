@@ -1,3 +1,5 @@
+import { Layout } from "../../Components/Layout/Index";
+
 export const Home = () => {
-  return <div>Home</div>;
+  return <Layout>Home</Layout>;
 };

@@ -1,3 +1,5 @@
+import { Layout } from "../../Components/Layout/Index";
+
 export const MyOrder = () => {
-  return <div>MyOrder</div>;
+  return <Layout>My orders</Layout>;
 };
